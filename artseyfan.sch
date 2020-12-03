@@ -1,0 +1,212 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SMKJP:pro_micro U1
+U 1 1 5FC9055E
+P 4000 1950
+F 0 "U1" H 4000 2715 50  0000 C CNN
+F 1 "pro_micro" H 4000 2624 50  0000 C CNN
+F 2 "SMKJP:BOARD_Pro_Micro_Reversed" H 4000 1950 50  0001 C CNN
+F 3 "" H 4000 1950 50  0001 C CNN
+	1    4000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Keyboard-symbols:SPST SW1
+U 1 1 5FC92E17
+P 6250 1400
+F 0 "SW1" H 6250 1665 50  0000 C CNN
+F 1 "SPST" H 6250 1574 50  0000 C CNN
+F 2 "gHeavyIndustries:MX-Alps-Choc-X-1U-NoLED" H 6250 1400 50  0001 C CNN
+F 3 "" H 6250 1400 50  0000 C CNN
+	1    6250 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Keyboard-symbols:SPST SW2
+U 1 1 5FC93CEA
+P 6250 1700
+F 0 "SW2" H 6250 1965 50  0000 C CNN
+F 1 "SPST" H 6250 1874 50  0000 C CNN
+F 2 "gHeavyIndustries:MX-Alps-Choc-X-1U-NoLED" H 6250 1700 50  0001 C CNN
+F 3 "" H 6250 1700 50  0000 C CNN
+	1    6250 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Keyboard-symbols:SPST SW3
+U 1 1 5FC94E6D
+P 6250 2000
+F 0 "SW3" H 6250 2265 50  0000 C CNN
+F 1 "SPST" H 6250 2174 50  0000 C CNN
+F 2 "gHeavyIndustries:MX-Alps-Choc-X-1U-NoLED" H 6250 2000 50  0001 C CNN
+F 3 "" H 6250 2000 50  0000 C CNN
+	1    6250 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Keyboard-symbols:SPST SW5
+U 1 1 5FC958BE
+P 6250 2600
+F 0 "SW5" H 6250 2865 50  0000 C CNN
+F 1 "SPST" H 6250 2774 50  0000 C CNN
+F 2 "gHeavyIndustries:MX-Alps-Choc-X-1U-NoLED" H 6250 2600 50  0001 C CNN
+F 3 "" H 6250 2600 50  0000 C CNN
+	1    6250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Keyboard-symbols:SPST SW6
+U 1 1 5FC960AF
+P 6250 2950
+F 0 "SW6" H 6250 3215 50  0000 C CNN
+F 1 "SPST" H 6250 3124 50  0000 C CNN
+F 2 "gHeavyIndustries:MX-Alps-Choc-X-1U-NoLED" H 6250 2950 50  0001 C CNN
+F 3 "" H 6250 2950 50  0000 C CNN
+	1    6250 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Keyboard-symbols:SPST SW7
+U 1 1 5FC96C56
+P 6250 3300
+F 0 "SW7" H 6250 3565 50  0000 C CNN
+F 1 "SPST" H 6250 3474 50  0000 C CNN
+F 2 "gHeavyIndustries:MX-Alps-Choc-X-1U-NoLED" H 6250 3300 50  0001 C CNN
+F 3 "" H 6250 3300 50  0000 C CNN
+	1    6250 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Keyboard-symbols:SPST SW8
+U 1 1 5FC97172
+P 6250 3650
+F 0 "SW8" H 6250 3915 50  0000 C CNN
+F 1 "SPST" H 6250 3824 50  0000 C CNN
+F 2 "gHeavyIndustries:MX-Alps-Choc-X-1U-NoLED" H 6250 3650 50  0001 C CNN
+F 3 "" H 6250 3650 50  0000 C CNN
+	1    6250 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Keyboard-symbols:Switch_SW_Push SW-RESET1
+U 1 1 5FC97E2C
+P 6250 900
+F 0 "SW-RESET1" H 6250 1185 50  0000 C CNN
+F 1 "Switch_SW_Push" H 6250 1094 50  0000 C CNN
+F 2 "raise_fp:reset-button" H 6250 1100 50  0001 C CNN
+F 3 "" H 6250 1100 50  0001 C CNN
+	1    6250 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 1400 6750 1700
+Wire Wire Line
+	6750 1700 6750 2000
+Connection ~ 6750 1700
+Connection ~ 6750 2000
+Wire Wire Line
+	6750 2600 6750 2950
+Connection ~ 6750 2600
+Wire Wire Line
+	6750 2950 6750 3300
+Connection ~ 6750 2950
+Wire Wire Line
+	6750 3300 6750 3650
+Connection ~ 6750 3300
+Wire Wire Line
+	6450 900  6750 900 
+Wire Wire Line
+	6750 900  6750 1400
+Connection ~ 6750 1400
+Wire Wire Line
+	6050 900  4850 900 
+Wire Wire Line
+	4850 900  4850 1650
+Wire Wire Line
+	4850 1650 4700 1650
+Wire Wire Line
+	6750 3650 6750 4700
+Wire Wire Line
+	6750 4700 2500 4700
+Wire Wire Line
+	2500 4700 2500 1650
+Wire Wire Line
+	2500 1650 3300 1650
+Connection ~ 6750 3650
+Wire Wire Line
+	5750 1400 4950 1400
+Wire Wire Line
+	4950 1400 4950 1850
+Wire Wire Line
+	4950 1850 4700 1850
+Wire Wire Line
+	5750 1700 5000 1700
+Wire Wire Line
+	5000 1700 5000 1950
+Wire Wire Line
+	5000 1950 4700 1950
+Wire Wire Line
+	5750 2000 5050 2000
+Wire Wire Line
+	5050 2000 5050 2050
+Wire Wire Line
+	5050 2050 4700 2050
+Wire Wire Line
+	5750 2300 5750 2150
+Wire Wire Line
+	5750 2150 4700 2150
+Wire Wire Line
+	5750 2600 5500 2600
+Wire Wire Line
+	5500 2600 5500 2250
+Wire Wire Line
+	5500 2250 4700 2250
+Wire Wire Line
+	5750 2950 5400 2950
+Wire Wire Line
+	5400 2950 5400 2350
+Wire Wire Line
+	5400 2350 4700 2350
+Wire Wire Line
+	5750 3300 5300 3300
+Wire Wire Line
+	5300 3300 5300 2450
+Wire Wire Line
+	5300 2450 4700 2450
+Wire Wire Line
+	5750 3650 5200 3650
+Wire Wire Line
+	5200 3650 5200 2550
+Wire Wire Line
+	5200 2550 4700 2550
+Connection ~ 6750 2300
+Wire Wire Line
+	6750 2300 6750 2600
+Wire Wire Line
+	6750 2000 6750 2300
+$Comp
+L Keyboard-symbols:SPST SW4
+U 1 1 5FC952DA
+P 6250 2300
+F 0 "SW4" H 6250 2565 50  0000 C CNN
+F 1 "SPST" H 6250 2474 50  0000 C CNN
+F 2 "gHeavyIndustries:MX-Alps-Choc-X-1U-NoLED" H 6250 2300 50  0001 C CNN
+F 3 "" H 6250 2300 50  0000 C CNN
+	1    6250 2300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

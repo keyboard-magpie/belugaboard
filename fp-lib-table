@@ -1,0 +1,11 @@
+(fp_lib_table
+  (lib (name gHeavyIndustries)(type KiCad)(uri /Users/tombarnes/Documents/GitHub/kicad-gits/germ-footprints/gHeavyIndustries.pretty)(options "")(descr ""))
+  (lib (name keyboard_parts)(type KiCad)(uri /Users/tombarnes/Documents/GitHub/kicad-gits/keyboard_parts.pretty)(options "")(descr ""))
+  (lib (name arduino_micro_shield)(type KiCad)(uri /Users/tombarnes/Documents/GitHub/kicad-gits/keyboardio-kicad-libraries/modules/arduino_micro_shield.pretty)(options "")(descr ""))
+  (lib (name keyboardio)(type KiCad)(uri /Users/tombarnes/Documents/GitHub/kicad-gits/keyboardio-kicad-libraries/modules/keyboardio.pretty)(options "")(descr ""))
+  (lib (name raise_fp)(type KiCad)(uri /Users/tombarnes/Documents/GitHub/kicad-gits/keyboardio-kicad-libraries/modules/raise_fp.pretty)(options "")(descr ""))
+  (lib (name Keyboard_Connector)(type KiCad)(uri /Users/tombarnes/Documents/GitHub/kicad-gits/kicad-footprints/modules/Keyboard_Connector.pretty)(options "")(descr ""))
+  (lib (name Keyswitch)(type KiCad)(uri /Users/tombarnes/Documents/GitHub/kicad-gits/kicad-footprints/modules/Keyswitch.pretty)(options "")(descr ""))
+  (lib (name canadian_footprints)(type KiCad)(uri "/Users/tombarnes/Documents/GitHub/kicad-gits/that canadian KiCAD Libs/canadian_footprints.pretty")(options "")(descr ""))
+  (lib (name SMKJP)(type KiCad)(uri /Users/tombarnes/Documents/GitHub/kicad-gits/SMKJP_kicad_components/SMKJP.pretty)(options "")(descr ""))
+)
